@@ -1,0 +1,62 @@
+$crusta-50: #fff5ed;
+$crusta-100: #ffe8d4;
+$crusta-200: #ffcda8;
+$crusta-300: #ffaa71;
+$crusta-400: #ff8040;
+$crusta-500: #fe5711;
+$crusta-600: #ef3c07;
+$crusta-700: #c62908;
+$crusta-800: #9d230f;
+$crusta-900: #7e1f10;
+$crusta-950: #440c06;
+$primary-color: $crusta-600;
+
+// Mixins
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+// Styles
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: $crusta-100;
+}
+
+.mainContainer {
+  @include flex-center;
+}
+
+.hotels {
+  @include flex-center;
+  width: 300px;
+  height: 160px;
+  margin: 10px;
+  align-content: flex-start;
+  margin-inside: 3px;
+  background-color: $crusta-50;
+  border-style: solid;
+  border-color: $crusta-950;
+  border-width: 2px;
+  border-radius: 4px;
+}
+
+.allhotels {
+  @include flex-center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 60pt;
+}
+
+// Responsive Styles for Phones
+@media (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+}

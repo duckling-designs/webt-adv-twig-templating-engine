@@ -1,0 +1,52 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #ffe8d4;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hotels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  height: 160px;
+  margin: 10px;
+  align-content: flex-start;
+  margin-inside: 3px;
+  background-color: #fff5ed;
+  border-style: solid;
+  border-color: #440c06;
+  border-width: 2px;
+  border-radius: 4px;
+}
+
+.allhotels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 60pt;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

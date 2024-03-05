@@ -1,0 +1,17 @@
+{
+    "name": "duckling-designs/webt-adv-twig-templating-engine",
+    "require": {
+        "twig/twig": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DucklingDesigns\\WebtAdvTwigTemplatingEngine\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Raven Burkard",
+            "email": "mathematti@outlook.com"
+        }
+    ]
+}
