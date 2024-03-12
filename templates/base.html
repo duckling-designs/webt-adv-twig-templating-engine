@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Las vegas</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+{{ include('menu.html') }}
+<div class="mainContainer">{% block content %}{% endblock %}</div>
+<footer>{{ include('footer.html') }}</footer>
+</body>
+</html>
