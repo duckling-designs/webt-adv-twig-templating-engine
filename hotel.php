@@ -16,5 +16,5 @@ $vars = ['hotels' => $hotels, 'greeting' => 'Hello, World!'];
 $loader = new FilesystemLoader('./templates');
 $twig = new \Twig\Environment($loader);
 
-echo $twig->render('mainMenu.html', $vars);
+echo $twig->render('main.html', $vars);
 
