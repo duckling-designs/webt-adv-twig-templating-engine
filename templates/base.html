@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Las vegas</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
-{{ include('menu.html') }}
+<div class="menu">{{ include('menu.html') }}</div>
 <div class="mainContainer">{% block content %}{% endblock %}</div>
 <footer>{{ include('footer.html') }}</footer>
 </body>
